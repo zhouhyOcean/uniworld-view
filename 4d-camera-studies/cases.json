@@ -1,0 +1,87 @@
+[
+  {
+    "case": 1,
+    "name": "case1_combo_v1",
+    "title": "Beach walk",
+    "intent": "Left arc / open out / crane",
+    "requested_orbit_degrees": 78,
+    "focal_range": [
+      0.9200551799588707,
+      1.18
+    ],
+    "review_note": "A wider beach reveal with a gentle rise; the people remain predominantly rear-facing.",
+    "output_sha256": "c651a9ddbd4228aab96acb4e7bcd9656db4f3e61c488f3aa86df306617325936",
+    "baseline_sha256": "a527cfb9c65dda5f94aeabef6576fc5d31ea5b50d57d25c96232b6f2939ccb3d",
+    "frames": 81,
+    "seconds": 5.0625,
+    "source_frame_order_unchanged": true
+  },
+  {
+    "case": 2,
+    "name": "case2_combo_v1",
+    "title": "Coastal silhouette",
+    "intent": "Right arc / dolly zoom",
+    "requested_orbit_degrees": -84,
+    "focal_range": [
+      1.0,
+      1.48
+    ],
+    "review_note": "Shoreline parallax with compensating optical zoom; the small silhouette action remains approximate.",
+    "output_sha256": "80c7eb7b165e0b301ce03f70d491b045fb8585bf32fcf6f2beccb8a15f5bcf76",
+    "baseline_sha256": "406e868aba0b7b62b381b1482ec0d38a227fc0cb7d0683b09a9216cb166d8f37",
+    "frames": 81,
+    "seconds": 5.0625,
+    "source_frame_order_unchanged": true
+  },
+  {
+    "case": 6,
+    "name": "case6_combo_v1",
+    "title": "Yoga studio",
+    "intent": "Elevated left arc / widen",
+    "requested_orbit_degrees": 66,
+    "focal_range": [
+      0.79002577733833,
+      1.0
+    ],
+    "review_note": "A rising leftward arc and wider lens reveal the floor and room corner while keeping the pose in frame.",
+    "output_sha256": "64870b02abcb9745d2e5de9e6ca89f51ccbaba08e4e72f689942e43dac78bb0e",
+    "baseline_sha256": "40e02bfee14137ea367f558e72fbfee61af5df5cb6e8d52597f7845ab450efbf",
+    "frames": 81,
+    "seconds": 5.0625,
+    "source_frame_order_unchanged": true
+  },
+  {
+    "case": 9,
+    "name": "case9_combo_v1",
+    "title": "Garden walk",
+    "intent": "Right arc / rise / dolly zoom",
+    "requested_orbit_degrees": -83,
+    "focal_range": [
+      0.910036651234568,
+      1.16
+    ],
+    "review_note": "A street reveal from profile toward a frontal view, with a rise and changing focal length.",
+    "output_sha256": "2c3c892da70fe8f8e64c2ff889c9e1e192cf9f352e40f86ee08cce32ee35668c",
+    "baseline_sha256": "fefd17cc98bcd0bcb661f4a6a8c1b161fecec36e11d5dc283a27b2caaa3a8399",
+    "frames": 81,
+    "seconds": 5.0625,
+    "source_frame_order_unchanged": true
+  },
+  {
+    "case": 15,
+    "name": "case15_combo_v1",
+    "title": "Street portrait",
+    "intent": "Left sweep / open street / crane",
+    "requested_orbit_degrees": 79,
+    "focal_range": [
+      0.8600095914780521,
+      1.12
+    ],
+    "review_note": "A rising street sweep keeps the foreground portrait visible; background pedestrians remain blurred and approximate.",
+    "output_sha256": "665900d3b48612f2a772c7a5bb8b62d32760fa424f393458bb102e194ca37191",
+    "baseline_sha256": "bcb77b0d168a888277b70d0564ac7989a033c8f43c65a243da676615f453d950",
+    "frames": 81,
+    "seconds": 5.0625,
+    "source_frame_order_unchanged": true
+  }
+]
