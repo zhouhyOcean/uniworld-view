@@ -25,31 +25,6 @@
     "output_sha256": "886936a1da14366be1f296f717abeec79512baf9f897da91e4e18985427b67f3"
   },
   {
-    "case": 103,
-    "name": "case103_stable_v2",
-    "title": "Camel enclosure",
-    "intent": "Low side-follow / bending rise above foreground / level approach to the herd",
-    "focal_range": [
-      0.62000640625,
-      1.0
-    ],
-    "review_note": "A low side pass rises and bends across the enclosure, then descends. Late displacement is moderated to improve neck and body stability.",
-    "limitations": [
-      "Leg articulation/gait and the visibility of the second camel remain approximate.",
-      "Unseen neck/body surfaces, fence and trees are generated completions; no paired novel-view ground truth.",
-      "8-step preview, no recovered output-camera measurement."
-    ],
-    "source_src": "case-103-source.mp4",
-    "baseline_src": null,
-    "result_src": "case-103-result.mp4",
-    "reference": "Public source linked below; source-specific independently authored spatial curve, fresh depth/tracks/camera fit. Qualitative preview, no paired novel-view ground truth.",
-    "source_url": "https://yixuanli98.github.io/cameraanything/videos/comparison/camel.mp4",
-    "frames": 81,
-    "fps": 16,
-    "seconds": 5.0625,
-    "output_sha256": "5ba39752a7802f981789495b3071ab34d23f1ef7ec2c59f35502a2cc4bfac87c"
-  },
-  {
     "case": 104,
     "name": "case104_stable_v2",
     "title": "Bear among rocks",

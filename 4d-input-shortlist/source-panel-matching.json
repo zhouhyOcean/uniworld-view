@@ -1,0 +1,41 @@
+[
+  {
+    "presentation": "tc_mammoth",
+    "original": "tc_mammoth_original",
+    "presentation_source_panel": [
+      0,
+      0,
+      672,
+      384
+    ],
+    "matched_original_frame": 0,
+    "grayscale_correlation": 0.98965534064857,
+    "notes": "Visual clip matching only, not a reconstruction or camera accuracy metric. Inference input is the independent publisher original, never the paired generated result."
+  },
+  {
+    "presentation": "tc_otter",
+    "original": "tc_otter_original",
+    "presentation_source_panel": [
+      0,
+      0,
+      672,
+      384
+    ],
+    "matched_original_frame": 36,
+    "grayscale_correlation": 0.9941446136555306,
+    "notes": "Visual clip matching only, not a reconstruction or camera accuracy metric. Inference input is the independent publisher original, never the paired generated result."
+  },
+  {
+    "presentation": "tc_dragon",
+    "original": "tc_dragon_original",
+    "presentation_source_panel": [
+      0,
+      0,
+      672,
+      384
+    ],
+    "matched_original_frame": 0,
+    "grayscale_correlation": 0.9910463664348219,
+    "notes": "Visual clip matching only, not a reconstruction or camera accuracy metric. Inference input is the independent publisher original, never the paired generated result."
+  }
+]
