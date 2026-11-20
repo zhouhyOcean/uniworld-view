@@ -749,7 +749,7 @@
     "group": "Priority",
     "note": "Cloth and limb continuity need review; the source itself is stylized.",
     "project_url": "https://adithyaiyer1999.github.io/reshoot-anything/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 81,
@@ -842,7 +842,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "4a15671a0db0751e774145a7fdf2596da6b6c7089e9fdb3adc12ecc056ad7cc5"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-113"
   },
   {
     "name": "reshoot_black_car",
@@ -863,7 +864,7 @@
     "group": "Priority",
     "note": "Keep the fitted source motion; do not let the car leave the shot.",
     "project_url": "https://adithyaiyer1999.github.io/reshoot-anything/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 150,
@@ -1025,7 +1026,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "45e63994c16183418de43277a52feca15c64a99f085e1156a6808027b06055e4"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-114"
   },
   {
     "name": "tc_dragon_original",
@@ -1047,7 +1049,7 @@
     "group": "Challenging",
     "note": "Dense occlusion and fast cloth motion make this an ambitious input.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Synthetic original publisher clip matched to related-work showcase",
     "preview": {
       "frames": 240,
@@ -1299,7 +1301,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "13e06d4e354fd67e885a9b9d31cec62d5f8166e8058e6d308b9abb50d91a0fa1"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-115"
   },
   {
     "name": "trajectorycrafter_raw4",
@@ -1322,7 +1325,7 @@
     "group": "Challenging",
     "note": "Reflective surfaces and thin limbs may be difficult to reconstruct.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "not_run",
+    "inference_status": "generated_withheld",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 240,
@@ -1574,7 +1577,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "2000031f66b49a882d3e4b0473ac5650099502028e42592175b7a067ecfef5f1"
-    }
+    },
+    "preview_review": "Generated successfully but withheld from the selected preview page after visual review; raw attempts retained in reproduction archive."
   },
   {
     "name": "camera_kitchen_cleanup",
@@ -1595,7 +1599,7 @@
     "group": "Complex staging",
     "note": "Contains a person, with the emphasis on the dynamic setting and props.",
     "project_url": "https://yixuanli98.github.io/cameraanything/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 81,
@@ -1688,7 +1692,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "2ef93eb56830f287e315d268b1dc385c7a3bdfc6179bed6a65ea83c546fc70ff"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-117"
   },
   {
     "name": "reshoot_stage_input",
@@ -1709,7 +1714,7 @@
     "group": "Complex staging",
     "note": "Smoke depth is ambiguous; this is a challenging source, not a guaranteed result.",
     "project_url": "https://adithyaiyer1999.github.io/reshoot-anything/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 81,
@@ -1802,6 +1807,7 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "93fed23ca113da27dbbbb992b89b952a8e49c29ffa7d548c593fd797a5ce0c0d"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-118"
   }
 ]
