@@ -1,0 +1,102 @@
+[
+  {
+    "case": 102,
+    "name": "case102_spatial_v1",
+    "title": "Robot workshop",
+    "intent": "Low workshop-side pass / rising tool reveal / descending side approach",
+    "focal_range": [
+      0.7000124999999999,
+      1.0
+    ],
+    "review_note": "A low workshop-side pass rises, then descends into a new aisle view. Tool grip and mechanical details remain approximate.",
+    "limitations": [
+      "Tool length/grip, mechanical joints and unseen back details are approximate, not exact motion or geometry ground truth.",
+      "New aisle, cabinets, lights and windows are generated completions.",
+      "8-step preview, no recovered output-camera measurement."
+    ],
+    "source_src": "case-102-source.mp4",
+    "baseline_src": null,
+    "result_src": "case-102-result.mp4",
+    "reference": "Public source linked below; source-specific independently authored spatial curve, fresh depth/tracks/camera fit. Qualitative preview, no paired novel-view ground truth.",
+    "source_url": "https://yixuanli98.github.io/cameraanything/videos/multishot/robot_panorama.mp4",
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "886936a1da14366be1f296f717abeec79512baf9f897da91e4e18985427b67f3"
+  },
+  {
+    "case": 103,
+    "name": "case103_stable_v2",
+    "title": "Camel enclosure",
+    "intent": "Low side-follow / bending rise above foreground / level approach to the herd",
+    "focal_range": [
+      0.62000640625,
+      1.0
+    ],
+    "review_note": "A low side pass rises and bends across the enclosure, then descends. Late displacement is moderated to improve neck and body stability.",
+    "limitations": [
+      "Leg articulation/gait and the visibility of the second camel remain approximate.",
+      "Unseen neck/body surfaces, fence and trees are generated completions; no paired novel-view ground truth.",
+      "8-step preview, no recovered output-camera measurement."
+    ],
+    "source_src": "case-103-source.mp4",
+    "baseline_src": null,
+    "result_src": "case-103-result.mp4",
+    "reference": "Public source linked below; source-specific independently authored spatial curve, fresh depth/tracks/camera fit. Qualitative preview, no paired novel-view ground truth.",
+    "source_url": "https://yixuanli98.github.io/cameraanything/videos/comparison/camel.mp4",
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "5ba39752a7802f981789495b3071ab34d23f1ef7ec2c59f35502a2cc4bfac87c"
+  },
+  {
+    "case": 104,
+    "name": "case104_stable_v2",
+    "title": "Bear among rocks",
+    "intent": "Rock-edge pass / rising S-weave / descending close-side reveal",
+    "focal_range": [
+      0.7800173750000001,
+      1.1
+    ],
+    "review_note": "An S-weave passes the rock foreground, rises and descends. Late focal growth retains subject size; hind-leg and rock details remain approximate.",
+    "limitations": [
+      "Rear-body proportions and hind-leg extension are still approximate in the late view.",
+      "New rock faces, log and ground are synthesized completions.",
+      "8-step preview, no recovered output-camera measurement."
+    ],
+    "source_src": "case-104-source.mp4",
+    "baseline_src": null,
+    "result_src": "case-104-result.mp4",
+    "reference": "Public source linked below; source-specific independently authored spatial curve, fresh depth/tracks/camera fit. Qualitative preview, no paired novel-view ground truth.",
+    "source_url": "https://davischallenge.org/davis2016/code.html",
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "b5a9f8360b58783dd90cf7b5593ed6cfa269654cd378e918bf0b60aa923ff726"
+  },
+  {
+    "case": 105,
+    "name": "case105_headsafe_v2",
+    "title": "Black swan on water",
+    "intent": "Water-level left glide / inward bend / elevated wake and shoreline reveal",
+    "focal_range": [
+      0.8,
+      1.0
+    ],
+    "review_note": "A water-level left glide rises into a rear-side view and reveals the wake. Early framing is widened to retain the full head.",
+    "limitations": [
+      "Feather structure, reflection geometry, wake detail and newly exposed tree/bank remain approximate.",
+      "49unique frames from the first49of50DAVISJPEGs, displayed16fps; no interpolation or known nativecapture timing.",
+      "8-step preview, not recovered output-camera accuracy."
+    ],
+    "source_src": "case-105-source.mp4",
+    "baseline_src": null,
+    "result_src": "case-105-result.mp4",
+    "reference": "Public source linked below; source-specific independently authored spatial curve, fresh depth/tracks/camera fit. Qualitative preview, no paired novel-view ground truth.",
+    "source_url": "https://davischallenge.org/davis2016/code.html",
+    "frames": 49,
+    "fps": 16,
+    "seconds": 3.0625,
+    "output_sha256": "99161a27cf361a40cc2ad69c43361139d1eba7fae896e3aff748dbc64fc25b27"
+  }
+]
