@@ -475,7 +475,7 @@
     "group": "Priority",
     "note": "Water/reflections and small paws are harder than the rigid surfboard.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "preview_complete",
+    "inference_status": "withdrawn_after_review",
     "source_kind": "Synthetic original publisher clip matched to related-work showcase",
     "preview": {
       "frames": 240,
@@ -728,7 +728,7 @@
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "4981e56613c561cea58737afe74ba48aa844fe31cf74cb92621bc75366abb9a8"
     },
-    "preview_result_url": "../4d-fancy-studies/#four-d-case-112"
+    "preview_review": "Withdrawn after user feedback on generated geometry. Original input, raw results and controls retained in the verified reproduction archive."
   },
   {
     "name": "reshoot_input78",
@@ -864,7 +864,7 @@
     "group": "Priority",
     "note": "Keep the fitted source motion; do not let the car leave the shot.",
     "project_url": "https://adithyaiyer1999.github.io/reshoot-anything/",
-    "inference_status": "preview_complete",
+    "inference_status": "withdrawn_after_review",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 150,
@@ -1027,7 +1027,7 @@
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "45e63994c16183418de43277a52feca15c64a99f085e1156a6808027b06055e4"
     },
-    "preview_result_url": "../4d-fancy-studies/#four-d-case-114"
+    "preview_review": "Withdrawn after user feedback on generated geometry. Original input, raw results and controls retained in the verified reproduction archive."
   },
   {
     "name": "tc_dragon_original",
