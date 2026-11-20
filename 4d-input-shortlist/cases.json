@@ -20,7 +20,7 @@
     "group": "Priority",
     "note": "Avoid clipping the lamp and thin legs.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Standalone original input supplied by related-work page/repository",
     "preview": {
       "frames": 145,
@@ -177,7 +177,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "3e3782375bc248e1a76d161021041af2857604d99118638bc736df045277f31e"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-110"
   },
   {
     "name": "tc_mammoth_original",
@@ -199,7 +200,7 @@
     "group": "Priority",
     "note": "Keep the whole nearest animal in frame; do not fly through the herd.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Synthetic original publisher clip matched to related-work showcase",
     "preview": {
       "frames": 240,
@@ -451,7 +452,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "6b8a116aae8a2c6ab3cb4d4eb907a64f67f826ccf8e1ea5600278707e59ee320"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-111"
   },
   {
     "name": "tc_otter_original",
@@ -473,7 +475,7 @@
     "group": "Priority",
     "note": "Water/reflections and small paws are harder than the rigid surfboard.",
     "project_url": "https://trajectorycrafter.github.io/",
-    "inference_status": "not_run",
+    "inference_status": "preview_complete",
     "source_kind": "Synthetic original publisher clip matched to related-work showcase",
     "preview": {
       "frames": 240,
@@ -725,7 +727,8 @@
       ],
       "timing": "Native decoded cadence retained; first8seconds or full clip if shorter. Spatial downscale only, no interpolation/repeated frames.",
       "sha256": "4981e56613c561cea58737afe74ba48aa844fe31cf74cb92621bc75366abb9a8"
-    }
+    },
+    "preview_result_url": "../4d-fancy-studies/#four-d-case-112"
   },
   {
     "name": "reshoot_input78",
