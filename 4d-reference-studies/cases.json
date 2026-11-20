@@ -1,0 +1,102 @@
+[
+  {
+    "case": 101,
+    "name": "case101_spatial_v2",
+    "title": "Alpine road",
+    "intent": "Low car-side tracking / trailing bend / elevated valley reveal",
+    "focal_range": [
+      0.7199999999999999,
+      1.02
+    ],
+    "review_note": "Low side tracking bends behind the car, then rises into an elevated valley reveal.",
+    "limitations": [
+      "Rear body details, wheels and newly exposed road/valley geometry are synthesized approximations.",
+      "Only the first81 native decoded source frames are used and replayed at16fps; this is not the entire original30fps clip or an equal-protocol comparison.",
+      "8-step preview; no full-step comparison or recovered output-camera measurement."
+    ],
+    "source_src": "case-101-source.mp4",
+    "baseline_src": null,
+    "result_src": "case-101-result.mp4",
+    "reference": "Public Reshoot-Anything car source video; fresh reconstructed geometry. Independently authored low-to-high trailing arc, not their camera path or an equal-protocol benchmark.",
+    "source_url": "https://adithyaiyer1999.github.io/reshoot-anything/cvpr26v2v/results/car_og.mp4",
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "163bd20bb8efe85c488266b37568813753fcd602558ea2d301b030ea471203ff"
+  },
+  {
+    "case": 9,
+    "name": "case9_fullframe_v3",
+    "title": "Garden walk",
+    "intent": "Side-follow / low flower pass / crane over the path / inward bend",
+    "focal_range": [
+      0.75,
+      1.0
+    ],
+    "review_note": "A flower-level side follow bends behind the walking subject and rises to reveal the path ahead.",
+    "limitations": [
+      "Initial upper-head cropping is inherited from the source; mid-route feet approach the lower edge.",
+      "Rear clothing, extended flowerbeds, trees, buildings and road are synthesized approximations.",
+      "8-step preview; no full-step comparison or recovered output-camera measurement."
+    ],
+    "source_src": "case-9-source.mp4",
+    "baseline_src": "case-9-previous.mp4",
+    "result_src": "case-9-result.mp4",
+    "reference": "Reshoot-Anything car chase: side-follow to elevated landscape reveal; independently add a foreground pass and inward bend, retaining the walking source.",
+    "source_url": null,
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "087115c4c0481c3e4fc181664788bc04d59ad74dd72c76fbfa33ccbc89c6dbd6"
+  },
+  {
+    "case": 6,
+    "name": "case6_plain_v3",
+    "title": "Yoga studio",
+    "intent": "Low lateral pass / rising cross-room bend / descending reveal",
+    "focal_range": [
+      0.6400000000000001,
+      1.0
+    ],
+    "review_note": "A low-to-high cross-room bend reveals stronger floor parallax, then descends toward the supported pose.",
+    "limitations": [
+      "Unobserved room dimensions, windows and wall texture are generated approximations.",
+      "Fine hand, toe and cloth details remain approximate.",
+      "8-step preview; no full-step comparison or recovered output-camera measurement."
+    ],
+    "source_src": "case-6-source.mp4",
+    "baseline_src": "case-6-previous.mp4",
+    "result_src": "case-6-result.mp4",
+    "reference": "CameraAnything mixed extrinsic/focal controls; ReCamMaster complex indoor rising and lateral trajectories. Continuous independently authored spatial curve, no cuts.",
+    "source_url": null,
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "4ef69d9d1a277c1d272c904d3c0c53fe160f2a36fc4849145e9e19897df593a8"
+  },
+  {
+    "case": 3,
+    "name": "case3_headsafe_v3",
+    "title": "Conversation",
+    "intent": "Pass the near shoulder / curved approach / descending reveal",
+    "focal_range": [
+      0.6100000000000001,
+      1.0
+    ],
+    "review_note": "A curved shoulder pass with changing height and a wider lens keeps the conversation visible. Unseen faces and street details are synthesized.",
+    "limitations": [
+      "Initial head cropping is inherited from the source; some hair remains close to the upper edge.",
+      "The man's previously unseen face, glasses, parts of the woman's appearance, vehicles and storefronts are generated approximations, not identity-accurate novel-view ground truth.",
+      "8-step preview; no full-step comparison or recovered output-camera measurement."
+    ],
+    "source_src": "case-3-source.mp4",
+    "baseline_src": "case-3-previous.mp4",
+    "result_src": "case-3-result.mp4",
+    "reference": "ReCamMaster complex montage: foreground shoulder/camera-height transitions; CameraAnything continuous sections separated from cuts.",
+    "source_url": null,
+    "frames": 81,
+    "fps": 16,
+    "seconds": 5.0625,
+    "output_sha256": "7574ca9ead9079d6ecc502660e286b3218dff897f80151b5ad04e2bed98c7e0d"
+  }
+]

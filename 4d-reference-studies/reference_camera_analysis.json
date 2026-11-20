@@ -1,0 +1,95 @@
+{
+  "source": "https://raw.githubusercontent.com/yixuanli98/CameraAnything/main/examples/camera.json",
+  "source_sha256": "8d0e7e36ec52737f99e92d9c79354036c8d6905a85dd2534fbdd4bf4cbbb238a",
+  "analysis": "Candidate cut detection at translation>.3 source-units or rotation>10deg. Source units not transferred to our depth-normalized controls. No hard cut or multi-shot path is used directly for our continuous 4D generation.",
+  "tasks": [
+    {
+      "task": "multi-shot-only_1",
+      "frames": 81,
+      "candidate_cut_after_frames": [
+        20,
+        36
+      ],
+      "cut_translation_steps": [
+        0.9190824113776221,
+        0.8375518626947898
+      ],
+      "cut_rotation_degrees": [
+        30.134185556145173,
+        26.724997339556683
+      ],
+      "hfov_range_degrees": [
+        66.849617,
+        66.849617
+      ],
+      "continuous_sections": [
+        [
+          0,
+          20
+        ],
+        [
+          21,
+          36
+        ],
+        [
+          37,
+          80
+        ]
+      ]
+    },
+    {
+      "task": "multi-shot-only_2",
+      "frames": 81,
+      "candidate_cut_after_frames": [
+        48
+      ],
+      "cut_translation_steps": [
+        4.075709921561421
+      ],
+      "cut_rotation_degrees": [
+        30.49837089390441
+      ],
+      "hfov_range_degrees": [
+        66.849617,
+        66.849617
+      ],
+      "continuous_sections": [
+        [
+          0,
+          48
+        ],
+        [
+          49,
+          80
+        ]
+      ]
+    },
+    {
+      "task": "multi-shot-focal-resolution",
+      "frames": 81,
+      "candidate_cut_after_frames": [
+        52
+      ],
+      "cut_translation_steps": [
+        1.2146531238261367
+      ],
+      "cut_rotation_degrees": [
+        34.01853689607693
+      ],
+      "hfov_range_degrees": [
+        38.82558062710645,
+        65.96251489254448
+      ],
+      "continuous_sections": [
+        [
+          0,
+          52
+        ],
+        [
+          53,
+          80
+        ]
+      ]
+    }
+  ]
+}
