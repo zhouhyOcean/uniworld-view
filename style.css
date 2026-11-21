@@ -110,3 +110,18 @@ footer { margin-top: 64px; padding: 28px 12px 36px; border-top: 1px solid var(--
 .study-links summary { cursor:pointer; }
 .study-links li { margin:8px 0; }
 @media(max-width:700px) { .results-index { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 18px; } .results-index a { font-size:.74rem; } }
+
+/* Three settings, with reference / camera / result for every retained case. */
+.results-index { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.results-category h3 { margin-bottom:24px; }
+.case-triplet { grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.case-triplet figcaption { padding:9px 12px; font-size:.74rem; color:var(--muted); }
+.camera-frame { background:#f8fafc; display:flex; align-items:center; justify-content:center; }
+.camera-frame canvas { display:block; width:100%; height:100%; touch-action:pan-y; cursor:grab; }
+.camera-frame canvas:active { cursor:grabbing; }
+.camera-frame canvas:focus-visible { outline:2px solid var(--accent); outline-offset:-3px; }
+.camera-controls { position:absolute; bottom:4px; left:0; right:0; display:flex; gap:8px; align-items:center; padding:3px 10px; height:26px; background:rgba(248,250,252,.88); }
+.camera-controls input { width:100%; min-width:0; accent-color:#23735e; cursor:pointer; }
+.camera-controls button { border:0; background:transparent; color:#546477; font-size:18px; padding:0 3px; cursor:pointer; }
+.camera-unavailable { color:#94a0af; font-size:.75rem; }
+@media(max-width:700px) { .case-triplet { grid-template-columns:minmax(0,1fr); gap:10px; } .results-index { grid-template-columns:1fr; gap:4px; } }
