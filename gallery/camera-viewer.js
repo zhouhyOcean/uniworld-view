@@ -1,12 +1,13 @@
-// Archived renderer controls. No generated-video pose estimation or synthetic paths.
+// Renderer records and explicitly identified historical reconstructions. See per-case provenance.
 (() => {
   let dataPromise;
-  const data = () => dataPromise ||= fetch('gallery/cameras.json').then(r => {if (!r.ok) throw Error('Camera data'); return r.json()});
+  const data = () => dataPromise ||= fetch('gallery/cameras.json?v=52d953958c94').then(r => {if (!r.ok) throw Error('Camera data'); return r.json()});
   const init = async canvas => {
     if (canvas.dataset.initialized) return;
     canvas.dataset.initialized='loading';
     try {
       const d=(await data())[canvas.dataset.camera], poses=d.poses, n=poses.length;
+      canvas.title=d.semantics+' Drag to rotate; double click to reset.';canvas.dataset.provenance=d.provenance_kind||'renderer-recorded';
       const cell=canvas.closest('.camera-cell'), row=canvas.closest('.case-row'), video=row.querySelector('.output-cell video'), slider=cell.querySelector('input'), ctx=canvas.getContext('2d');
       const positions=poses.map(m=>m.slice(0,3).map(r=>r[3]));
       const lo=[0,1,2].map(k=>Math.min(...positions.map(p=>p[k]))), hi=[0,1,2].map(k=>Math.max(...positions.map(p=>p[k]))), center=lo.map((v,k)=>(v+hi[k])/2);
