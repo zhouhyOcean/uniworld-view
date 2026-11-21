@@ -135,7 +135,7 @@
       "case": 42,
       "id": "case-42",
       "file": "full-quality/3d-case-42.mp4",
-      "sha256": "a56ef994068364af82ed70a43fe2bc8263a985eb9960b67123c07124eeacb6c9",
+      "sha256": "2c10ab3021061ff50b7a239eed2a18543631f95a7d64e2ac0eefdc3f13b3d6a0",
       "frames": 161,
       "fps": 16.1,
       "seconds": 10.0,
@@ -148,7 +148,17 @@
       "scheduler_shift": 5,
       "stages": 2,
       "source_reference_frames": 0,
-      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
+      "controls": "Revised continuous central-forward trajectory with moderated late travel and gradual focal increase; requested/renderer controls, not recovered output poses.",
+      "trajectory_revision": {
+        "date": "2026-11-21",
+        "first_stage_reused": true,
+        "second_stage_forward_distance_reduction": 0.14814814814814814,
+        "camera_viewer": "full-quality/case-42-camera.html",
+        "control_file": "full-quality/case-42-camera-controls.json",
+        "heading_unchanged": true,
+        "focal_ratio_end": 1.18
+      },
+      "previous_output_sha256": "a56ef994068364af82ed70a43fe2bc8263a985eb9960b67123c07124eeacb6c9"
     },
     {
       "setting": "3d-nvs",
