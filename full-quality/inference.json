@@ -1,6 +1,5 @@
 {
   "steps": 30,
-  "default_guidance": 4,
   "guidance_overrides": {},
   "withheld_cases": [
     {
@@ -10,8 +9,6 @@
     }
   ],
   "lora": false,
-  "scheduler": "FlowMatchEulerDiscreteScheduler",
-  "scheduler_shift": 5,
   "cases": [
     {
       "setting": "3d-nvs",
@@ -395,6 +392,82 @@
     },
     {
       "setting": "4d-nvs",
+      "case": 15,
+      "id": "four-d-case-15",
+      "file": "full-quality/4d-case-15.mp4",
+      "sha256": "326b39ef2ba371f432d0bb2831aee465c848ab22314e989dc518ead98d74f8d4",
+      "frames": 81,
+      "fps": 16,
+      "seconds": 5.0625,
+      "steps": 30,
+      "guidance": 4,
+      "lora": false,
+      "conditioning_scale": 1.0,
+      "foliage_guidance_cleanup": false,
+      "scheduler": "FlowMatchEulerDiscreteScheduler",
+      "scheduler_shift": 5,
+      "stages": 1,
+      "source_reference_frames": 10,
+      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
+    },
+    {
+      "setting": "4d-nvs",
+      "case": 4,
+      "id": "four-d-case-4",
+      "file": "assets/cases/4d-nvs/case-4.mp4",
+      "sha256": "78eb70f8d6f644a7c16a8a0561d1af05a78b505d65366042845c4ea11775d6bd",
+      "frames": 81,
+      "fps": 16,
+      "seconds": 5.0625,
+      "steps": 30,
+      "lora": false,
+      "guidance": null,
+      "scheduler": null,
+      "scheduler_shift": null,
+      "stages": 1,
+      "provenance": "Restored existing result; source/output hashes match historical files; log reaches30/30and explicitly proceeds withoutLoRA. Exact historical sampler/CFG not recorded.",
+      "controls": "Historical selected trajectory retained; no regeneration or media re-encoding."
+    },
+    {
+      "setting": "4d-nvs",
+      "case": 7,
+      "id": "four-d-case-7",
+      "file": "assets/cases/4d-nvs/case-7.mp4",
+      "sha256": "353164fe2078f5464c66f09606e516ef7c771f35dc0ac1dab1ceba396f6a208b",
+      "frames": 81,
+      "fps": 16,
+      "seconds": 5.0625,
+      "steps": 30,
+      "lora": false,
+      "guidance": null,
+      "scheduler": null,
+      "scheduler_shift": null,
+      "stages": 1,
+      "provenance": "Restored existing result; source/output hashes match historical files; log reaches30/30and explicitly proceeds withoutLoRA. Exact historical sampler/CFG not recorded.",
+      "controls": "Historical selected trajectory retained; no regeneration or media re-encoding."
+    },
+    {
+      "setting": "4d-nvs",
+      "case": 12,
+      "id": "four-d-case-12",
+      "file": "assets/cases/4d-nvs/case-12.mp4",
+      "sha256": "e6c9433f856527e3c92f5790a404f923f555e4b9e060c1382c146a3b7d8578fe",
+      "frames": 81,
+      "fps": 16,
+      "seconds": 5.0625,
+      "steps": 30,
+      "lora": false,
+      "guidance": null,
+      "scheduler": null,
+      "scheduler_shift": null,
+      "stages": 1,
+      "provenance": "Restored existing result; source/output hashes match historical files; log reaches30/30and explicitly proceeds withoutLoRA. Exact historical sampler/CFG not recorded.",
+      "controls": "Historical selected trajectory retained; no regeneration or media re-encoding."
+    }
+  ],
+  "archived_cases": [
+    {
+      "setting": "4d-nvs",
       "case": 2,
       "id": "four-d-case-2",
       "file": "full-quality/4d-case-2.mp4",
@@ -411,7 +484,8 @@
       "scheduler_shift": 5,
       "stages": 1,
       "source_reference_frames": 10,
-      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
+      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses.",
+      "homepage_status": "withdrawn20261121"
     },
     {
       "setting": "4d-nvs",
@@ -431,7 +505,8 @@
       "scheduler_shift": 5,
       "stages": 1,
       "source_reference_frames": 10,
-      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
+      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses.",
+      "homepage_status": "withdrawn20261121"
     },
     {
       "setting": "4d-nvs",
@@ -451,27 +526,14 @@
       "scheduler_shift": 5,
       "stages": 1,
       "source_reference_frames": 10,
-      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
-    },
-    {
-      "setting": "4d-nvs",
-      "case": 15,
-      "id": "four-d-case-15",
-      "file": "full-quality/4d-case-15.mp4",
-      "sha256": "326b39ef2ba371f432d0bb2831aee465c848ab22314e989dc518ead98d74f8d4",
-      "frames": 81,
-      "fps": 16,
-      "seconds": 5.0625,
-      "steps": 30,
-      "guidance": 4,
-      "lora": false,
-      "conditioning_scale": 1.0,
-      "foliage_guidance_cleanup": false,
-      "scheduler": "FlowMatchEulerDiscreteScheduler",
-      "scheduler_shift": 5,
-      "stages": 1,
-      "source_reference_frames": 10,
-      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses."
+      "controls": "Accepted trajectories preserved; renderer records checked. Poses are requested controls, not recovered output camera poses.",
+      "homepage_status": "withdrawn20261121"
     }
-  ]
+  ],
+  "generated_run_defaults": {
+    "default_guidance": 4,
+    "scheduler": "FlowMatchEulerDiscreteScheduler",
+    "scheduler_shift": 5
+  },
+  "scope": "Documented normal/no-LoRA results currently on the formal homepage; other retained legacy and scene-render rows are outside this manifest."
 }
