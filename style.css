@@ -125,3 +125,12 @@ footer { margin-top: 64px; padding: 28px 12px 36px; border-top: 1px solid var(--
 .camera-controls button { border:0; background:transparent; color:#546477; font-size:18px; padding:0 3px; cursor:pointer; }
 .camera-unavailable { color:#94a0af; font-size:.75rem; }
 @media(max-width:700px) { .case-triplet { grid-template-columns:minmax(0,1fr); gap:10px; } .results-index { grid-template-columns:1fr; gap:4px; } }
+
+.case-toolbar { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:6px 12px; margin-bottom:8px; }
+.case-toolbar .case-label { margin-bottom:0; }
+.comparison-controls { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.comparison-controls button { border:1px solid var(--line); border-radius:5px; background:#fff; color:#526174; font:inherit; font-size:.7rem; line-height:1.5; padding:3px 9px; cursor:pointer; }
+.comparison-controls button:hover { color:#145e4a; border-color:#8eb5a8; }
+.comparison-controls button:disabled { opacity:.55; cursor:wait; }
+.comparison-controls button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.comparison-status { color:var(--muted); font-size:.7rem; }
